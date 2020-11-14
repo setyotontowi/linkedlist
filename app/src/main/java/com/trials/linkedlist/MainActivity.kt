@@ -7,5 +7,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val outer:Outer = Outer(2)
+        outer.Inner(2)
+
+        println(outer.value)
+
     }
 }
