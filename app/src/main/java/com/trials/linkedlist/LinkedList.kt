@@ -88,5 +88,12 @@ class LinkedList{
     /*TODO: Review and Reflection
     * - How Node() can store any value without saving it to variable? [syntax] @19.01
     * - Try to create own LinkedList algorithm. Understanding scale (2/5) [algorithm] @19.01
+    *
+    * The algorithm
+    * LinkedList a = new LinkedList
+    * a.add(1)
+    *
+    * 1 store to value in Node
+    *
     * */
 }
